@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Pong from "./Pong";
+import Snake from "./Snake";
+import { Route, BrowserRouter as Router, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Route path="/snake" component={Snake} />
+        <Route path="/pong" component={Pong} />
+        <Link to="/snake">
+          <button>SNAKE</button>
+        </Link>
+
+        <Link to="/pong">
+          <button>PONG</button>
+        </Link>
+      </Router>
     </div>
   );
 }
