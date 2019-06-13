@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pong-Snake/static/css/main.77c4555d.chunk.css",
+    "main.js": "/Pong-Snake/static/js/main.2e36a6da.chunk.js",
+    "main.js.map": "/Pong-Snake/static/js/main.2e36a6da.chunk.js.map",
+    "runtime~main.js": "/Pong-Snake/static/js/runtime~main.8f9f2a1a.js",
+    "runtime~main.js.map": "/Pong-Snake/static/js/runtime~main.8f9f2a1a.js.map",
+    "static/js/2.205b29d8.chunk.js": "/Pong-Snake/static/js/2.205b29d8.chunk.js",
+    "static/js/2.205b29d8.chunk.js.map": "/Pong-Snake/static/js/2.205b29d8.chunk.js.map",
+    "index.html": "/Pong-Snake/index.html",
+    "precache-manifest.014bf09f398f842211b7473a38ad0eaf.js": "/Pong-Snake/precache-manifest.014bf09f398f842211b7473a38ad0eaf.js",
+    "service-worker.js": "/Pong-Snake/service-worker.js",
+    "static/css/main.77c4555d.chunk.css.map": "/Pong-Snake/static/css/main.77c4555d.chunk.css.map"
+  }
+}
